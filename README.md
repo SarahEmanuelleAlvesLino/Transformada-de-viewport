@@ -2,6 +2,8 @@
 
 Um projeto de computação gráfica que implementa a **Transformada de Viewport** para visualização de objetos geométricos 2D. O sistema permite carregar objetos a partir de arquivos XML e visualizá-los em uma interface gráfica interativa.
 
+![Screenshot do Visualizador](image.png)
+
 ## 📋 Descrição
 
 Este projeto implementa os conceitos fundamentais de computação gráfica relacionados à transformação de coordenadas do mundo (world coordinates) para coordenadas da viewport (viewport coordinates). O visualizador permite:
@@ -25,6 +27,7 @@ CG1/
 ├── ideia_interface.ipynb    # Código principal (Jupyter Notebook)
 ├── entrada.xml             # Arquivo de exemplo com objetos geométricos
 ├── entrada_extra.xml       # Arquivo adicional com mais objetos para teste
+├── image.png               # Screenshot da interface do visualizador
 └── README.md              # Este arquivo
 ```
 
