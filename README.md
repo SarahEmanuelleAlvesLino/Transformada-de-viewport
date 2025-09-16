@@ -24,11 +24,12 @@ Este projeto implementa os conceitos fundamentais de computação gráfica relac
 
 ```
 CG1/
-├── ideia_interface.ipynb    # Código principal (Jupyter Notebook)
-├── entrada.xml             # Arquivo de exemplo com objetos geométricos
-├── entrada_extra.xml       # Arquivo adicional com mais objetos para teste
-├── image.png               # Screenshot da interface do visualizador
-└── README.md              # Este arquivo
+├── ideia_interface.ipynb           # Código principal (Jupyter Notebook)
+├── entrada.xml                     # Arquivo de exemplo com objetos geométricos
+├── entrada_extra.xml               # Arquivo adicional com mais objetos para teste
+├── image.png                       # Screenshot da interface do visualizador
+├── RELATÓRIO_TRABALHO PRÁTICO 1.pdf  # Relatório técnico completo do projeto
+└── README.md                       # Este arquivo
 ```
 
 ## 🚀 Como Executar
