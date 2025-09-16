@@ -24,6 +24,7 @@ Este projeto implementa os conceitos fundamentais de computação gráfica relac
 CG1/
 ├── ideia_interface.ipynb    # Código principal (Jupyter Notebook)
 ├── entrada.xml             # Arquivo de exemplo com objetos geométricos
+├── entrada_extra.xml       # Arquivo adicional com mais objetos para teste
 └── README.md              # Este arquivo
 ```
 
@@ -151,10 +152,26 @@ Onde:
 ## 🎯 Exemplo de Uso
 
 1. Execute a aplicação
-2. Use "Arquivo > Abrir" para carregar o arquivo `entrada.xml`
+2. Use "Arquivo > Abrir" para carregar um dos arquivos de exemplo:
+   - `entrada.xml` - Exemplo básico com poucos objetos
+   - `entrada_extra.xml` - Exemplo mais complexo com diversos objetos e um polígono grande
 3. Use as setas do teclado para navegar pela cena
 4. Observe como a matriz de transformação muda conforme você navega
 5. O retângulo vermelho no minimapa mostra a área atual em foco
+
+### Arquivos de Exemplo Disponíveis
+
+- **`entrada.xml`**: Arquivo de demonstração básico contendo:
+  - 3 pontos simples
+  - 3 retas
+  - 2 polígonos (quadrado e triângulo)
+  - Window de 10.0 x 7.5 unidades
+
+- **`entrada_extra.xml`**: Arquivo de teste mais abrangente contendo:
+  - 3 pontos distribuídos pela cena
+  - 2 retas diagonais
+  - 3 polígonos incluindo um grande que atravessa toda a cena
+  - Window de 20 x 15 unidades para demonstrar navegação
 
 ## 📚 Conceitos de Computação Gráfica
 
